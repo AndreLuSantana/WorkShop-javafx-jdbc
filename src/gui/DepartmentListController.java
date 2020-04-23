@@ -32,8 +32,7 @@ public class DepartmentListController implements Initializable{
 	
 	@FXML
 	private Button btnNew;
-	
-	
+		
 	private ObservableList<Department> obsList;
 	
 	@FXML
@@ -41,7 +40,7 @@ public class DepartmentListController implements Initializable{
 		System.out.println("onBtNewAction");
 	}
 	
-	public void setDepartmentServie(DepartmentService service) {
+	public void setDepartmentService(DepartmentService service) {
 		this.service = service;
 	}
 	
