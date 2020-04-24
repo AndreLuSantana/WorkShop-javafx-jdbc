@@ -53,7 +53,7 @@ public class DepartmentListController implements Initializable{
 	private void initializeNodes() {// iniciar componente na tela
 		
 		tableColumnId.setCellValueFactory(new PropertyValueFactory<>("id")); // Iniciar comportamento das colunas da tabela
-		tableColumnName.setCellValueFactory(new PropertyValueFactory<>("name"));
+		tableColumnName.setCellValueFactory(new PropertyValueFactory<>("nome"));
 		
 		Stage stage = (Stage)Main.getMainScene().getWindow();
 		tableViewDepartment.prefHeightProperty().bind(stage.heightProperty());// Necessário para a tableView acompanhar o tamanha da janela.
